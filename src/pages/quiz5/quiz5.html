@@ -1,0 +1,97 @@
+<!--
+  Generated template for the Quiz5Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content class="bck" padding>
+    <h1>Level 5</h1>
+    <br>
+    <hr>
+    <ion-list radio-group [(ngModel)]="Question1">
+        <h3>Which tourist destination in Kimberley, chronicals the mining industry?</h3>
+        <ion-item class="asdf">
+          <ion-label>England Mining</ion-label>
+          <ion-radio value="a" ></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+          <ion-label>AB Mining</ion-label>
+          <ion-radio value="a"></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+            <ion-label>The Big Hole</ion-label>
+            <ion-radio value="The Big Hole"></ion-radio>
+          </ion-item>
+    
+      </ion-list>
+
+      <ion-list radio-group [(ngModel)]="Question2">
+          <h3>South Africa has eleven official languages, however as of 2011 which is the most spoken first language?</h3>
+          <ion-item class="asdf">
+            <ion-label>Zulu</ion-label>
+            <ion-radio value="Zulu" checked></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+            <ion-label>English</ion-label>
+            <ion-radio value="a"></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+              <ion-label>Xhosa</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+      
+        </ion-list>
+
+        <ion-list radio-group [(ngModel)]="Question3">
+            <h3>Which is the largest province in terms of population?</h3>
+            <ion-item class="asdf">
+              <ion-label>Eastern Cape</ion-label>
+              <ion-radio value="a" checked></ion-radio>
+            </ion-item>
+            <ion-item class="asdf">
+              <ion-label>Free State</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+            <ion-item class="asdf">
+                <ion-label>Gauteng</ion-label>
+                <ion-radio value="Gauteng"></ion-radio>
+              </ion-item>
+          </ion-list>
+
+          <ion-list radio-group [(ngModel)]="Question4">
+              <h3>In what year did the country become a republic?</h3>
+              <ion-item class="asdf">
+                <ion-label>1994</ion-label>
+                <ion-radio value="a" checked></ion-radio>
+              </ion-item>
+              <ion-item class="asdf">
+                <ion-label>1961</ion-label>
+                <ion-radio value="1961"></ion-radio>
+              </ion-item>
+              <ion-item class="asdf">
+                  <ion-label>1992</ion-label>
+                  <ion-radio value="a" checked></ion-radio>
+                </ion-item>
+            </ion-list>
+
+            <ion-list radio-group [(ngModel)]="Question5">
+                <h3>The South African parliament is made up of 2 houses, the lower known as The National Assembly and which other?</h3>
+                <ion-item class="asdf">
+                  <ion-label>National Council of Gauteng</ion-label>
+                  <ion-radio value="a" checked></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                  <ion-label>National Council of SA</ion-label>
+                  <ion-radio value="The Stone Age"></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                    <ion-label>National Council of Provinces</ion-label>
+                    <ion-radio value="National Council of Provinces"></ion-radio>
+                  </ion-item>
+            
+              </ion-list>
+<button ion-button block (click)="nxt()">Submit</button>
+
+</ion-content>

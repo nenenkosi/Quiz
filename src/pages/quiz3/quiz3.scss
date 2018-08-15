@@ -1,0 +1,29 @@
+page-quiz3 {
+    .bck{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../../assets/imgs/33c5b47861449deee16eb5027a8caa93.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .asdf{
+        background-color: rgba(29, 129, 91, 0);
+        border-radius: 10px
+    }
+    h3{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px
+    }
+    ion-label{
+        color: white
+    }
+    ion-header{
+        color:black
+    }
+    h1{
+        text-align: center;
+        color: white
+    }
+
+}

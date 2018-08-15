@@ -1,0 +1,98 @@
+<!--
+  Generated template for the Quiz2Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content class="bck" padding>
+    <h1>Level 2</h1>
+    <br>
+    <hr>
+    <ion-list radio-group [(ngModel)]="Question1">
+        <h3>What are the names of the two longest rivers in the world?</h3>
+        <ion-item class="asdf">
+          <ion-label>The Amazon and Orang River</ion-label>
+          <ion-radio value="a"></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+          <ion-label>The River Jordan</ion-label>
+          <ion-radio value="a"></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+            <ion-label>The Amazon and the Nile</ion-label>
+            <ion-radio value="The Amazon and the Nile"></ion-radio>
+          </ion-item>
+    
+      </ion-list>
+
+      <ion-list radio-group [(ngModel)]="Question2">
+          <h3>Which animal is responsible for the most human deaths in Africa?</h3>
+          <ion-item class="asdf">
+            <ion-label>The Hippopotamus</ion-label>
+            <ion-radio value="The Hippopotamus" checked></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+            <ion-label>Lion</ion-label>
+            <ion-radio value="a"></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+              <ion-label>Tiger</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+      
+        </ion-list>
+
+        <ion-list radio-group [(ngModel)]="Question3">
+            <h3>What is the largest island in the world?</h3>
+            <ion-item class="asdf">
+              <ion-label>Island</ion-label>
+              <ion-radio value="a" checked></ion-radio>
+            </ion-item>
+
+            <ion-item class="asdf">
+              <ion-label>Ice-Land</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+            
+            <ion-item class="asdf">
+                <ion-label>Greenland</ion-label>
+                <ion-radio value="Greenland"></ion-radio>
+              </ion-item>
+        
+          </ion-list>
+
+          <ion-list radio-group [(ngModel)]="Question4">
+              <h3>Which planet is closest to the sun?</h3>
+              <ion-item class="asdf">
+                <ion-label>Earth</ion-label>
+                <ion-radio value="a" checked></ion-radio>
+              </ion-item>
+              <ion-item class="asdf">
+                <ion-label>Mercury</ion-label>
+                <ion-radio value="Mercury"></ion-radio>
+              </ion-item>
+          
+            </ion-list>
+
+            <ion-list radio-group [(ngModel)]="Question5">
+                <h3>What occurred first, the Stone Age or the Bronze Age?</h3>
+                <ion-item class="asdf">
+                  <ion-label>The Iron Age</ion-label>
+                  <ion-radio value="a" checked></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                  <ion-label>The Stone Age</ion-label>
+                  <ion-radio value="The Stone Age"></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                    <ion-label>The Wooden Age</ion-label>
+                    <ion-radio value="a"></ion-radio>
+                  </ion-item>
+            
+              </ion-list>
+<button ion-button block (click)="nxt()">Submit</button>
+
+</ion-content>

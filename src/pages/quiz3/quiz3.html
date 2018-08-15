@@ -1,0 +1,95 @@
+<!--
+  Generated template for the Quiz3Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content class="bck" padding>
+    <h1>Level 3</h1>
+    <br>
+    <hr>
+    <ion-list radio-group [(ngModel)]="Question1">
+        <h3>What ingredient makes bread rise?</h3>
+        <ion-item class="asdf">
+          <ion-label>Yeast</ion-label>
+          <ion-radio value="Yeast" checked></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+          <ion-label>Self rise flour</ion-label>
+          <ion-radio value="a"></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+            <ion-label>Sugar</ion-label>
+            <ion-radio value="a"></ion-radio>
+          </ion-item>
+    
+      </ion-list>
+
+      <ion-list radio-group [(ngModel)]="Question2">
+          <h3>What type of cake is traditionally eaten at Christmas time in Italy?</h3>
+          <ion-item class="asdf">
+            <ion-label>Pizza</ion-label>
+            <ion-radio value="a" checked></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+            <ion-label>Panettone</ion-label>
+            <ion-radio value="Panettone"></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+              <ion-label>Bamboo</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+      
+        </ion-list>
+
+        <ion-list radio-group [(ngModel)]="Question3">
+            <h3>From which country does Feta cheese originate?</h3>
+            <ion-item class="asdf">
+              <ion-label>Greece</ion-label>
+              <ion-radio value="Greece" checked></ion-radio>
+            </ion-item>
+            <ion-item class="asdf">
+              <ion-label>Mexico</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+            <ion-item class="asdf">
+                <ion-label>Greenland</ion-label>
+                <ion-radio value="a"></ion-radio>
+              </ion-item>
+        
+          </ion-list>
+
+          <ion-list radio-group [(ngModel)]="Question4">
+              <h3>Which nuts are used to make marzipan?</h3>
+              <ion-item class="asdf">
+                <ion-label>Whole nuts</ion-label>
+                <ion-radio value="a" checked></ion-radio>
+              </ion-item>
+              <ion-item class="asdf">
+                <ion-label>Almonds</ion-label>
+                <ion-radio value="Almonds"></ion-radio>
+              </ion-item>
+          
+            </ion-list>
+
+            <ion-list radio-group [(ngModel)]="Question5">
+                <h3>Which vegetable is zucchini better known as?</h3>
+                <ion-item class="asdf">
+                  <ion-label>Soya beans</ion-label>
+                  <ion-radio value="a" checked></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                  <ion-label>Beans</ion-label>
+                  <ion-radio value="a"></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                    <ion-label>Courgette</ion-label>
+                    <ion-radio value="Courgette"></ion-radio>
+                  </ion-item>
+            
+              </ion-list>
+<button ion-button block (click)="nxt()">Submit</button>
+
+</ion-content>

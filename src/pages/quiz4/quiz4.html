@@ -1,0 +1,101 @@
+<!--
+  Generated template for the Quiz4Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content class="bck" padding>
+    <h1>Level 4</h1>
+    <br>
+    <hr>
+    <ion-list radio-group [(ngModel)]="Question1">
+        <h3>How many colours are there in a rainbow?</h3>
+        <ion-item class="asdf">
+          <ion-label>7</ion-label>
+          <ion-radio value="7" checked></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+          <ion-label>6</ion-label>
+          <ion-radio value="a"></ion-radio>
+        </ion-item>
+        <ion-item class="asdf">
+            <ion-label>5</ion-label>
+            <ion-radio value="a"></ion-radio>
+          </ion-item>
+    
+      </ion-list>
+
+      <ion-list radio-group [(ngModel)]="Question2">
+          <h3>How many squares are there on a chess board?</h3>
+          <ion-item class="asdf">
+            <ion-label>48</ion-label>
+            <ion-radio value="a" checked></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+            <ion-label>64</ion-label>
+            <ion-radio value="64"></ion-radio>
+          </ion-item>
+          <ion-item class="asdf">
+              <ion-label>32</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+      
+        </ion-list>
+
+        <ion-list radio-group [(ngModel)]="Question3">
+            <h3>How many degrees are found in a circle?</h3>
+            <ion-item class="asdf">
+              <ion-label>360</ion-label>
+              <ion-radio value="360" checked></ion-radio>
+            </ion-item>
+            <ion-item class="asdf">
+              <ion-label>180</ion-label>
+              <ion-radio value="a"></ion-radio>
+            </ion-item>
+            <ion-item class="asdf">
+                <ion-label>720</ion-label>
+                <ion-radio value="a"></ion-radio>
+              </ion-item>
+        
+          </ion-list>
+
+          <ion-list radio-group [(ngModel)]="Question4">
+              <h3>When did the world celebrate its most recent millennium? </h3>
+              <ion-item class="asdf">
+                <ion-label>Year 2000</ion-label>
+                <ion-radio value="Year 2000" checked></ion-radio>
+              </ion-item>
+              <ion-item class="asdf">
+                <ion-label>Year 2010</ion-label>
+                <ion-radio value="Mercury"></ion-radio>
+              </ion-item>
+              <ion-item class="asdf">
+                  <ion-label>Year 1990</ion-label>
+                  <ion-radio value="Year 2000" checked></ion-radio>
+                </ion-item>
+              
+          
+            </ion-list>
+
+            <ion-list radio-group [(ngModel)]="Question5">
+                <h3>What do you call a time span of one thousand years?</h3>
+                <ion-item class="asdf">
+                  <ion-label>Millennium</ion-label>
+                  <ion-radio value="Millennium" checked></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                  <ion-label>A life time</ion-label>
+                  <ion-radio value="a"></ion-radio>
+                </ion-item>
+                <ion-item class="asdf">
+                    <ion-label>Decade</ion-label>
+                    <ion-radio value="a"></ion-radio>
+                  </ion-item>
+            
+              </ion-list>
+<button ion-button block (click)="nxt()">Submit</button>
+
+</ion-content>
